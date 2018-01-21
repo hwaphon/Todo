@@ -2,6 +2,7 @@
 
 减少访问 `DOM` 的次数，将更多的运算放在 `ECMAScript` 中运行。
 
+```
   // 较差的写法
   function appendHTML (dom, data) {
     var length = data.length;
@@ -21,7 +22,7 @@
     }
     dom.innerHTML += html;
   }
-
+```
 ---
 
 `innerHTML` 和 `document.createElement()` 作为两种创建 `DOM` 的方法在性能上相差无几（在 webkit 浏览器中后者更快，其他浏览器中前者较快），不过后者是 `web` 标准。

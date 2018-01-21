@@ -1,6 +1,6 @@
 # 2018 Toto List
 
-1. JS 高性能开发研究
+1. [JS 高性能开发研究](/blob/master/JS性能优化.md)
 
 2. JS 常用设计模式研究
 
