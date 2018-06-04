@@ -1,11 +1,11 @@
 /*
 * @Author: hwaphon
 * @Date:   2018-06-04 16:15:20
-* @Last Modified by:   hwaphon
-* @Last Modified time: 2018-06-04 18:04:43
+ * @Last modified by:   
+ * @Last modified time: 2018-06-04T21:37:38+08:00
 */
 
-*, 
+*,
 *::before,
 *::after {
 	margin: 0;
@@ -88,3 +88,16 @@
 	top: 100%;
 }
 
+.scale-container input::before {
+	content: "0";
+	position: absolute;
+	left: 0;
+	top: 100%;
+}
+
+.scale-container input::after {
+	content: "2";
+	position: absolute;
+	right: 0;
+	top: 100%;
+}
