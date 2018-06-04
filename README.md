@@ -19,5 +19,7 @@
 参考链接：
 
 [好吧，CSS3 3D transform变换，不过如此！](http://www.zhangxinxu.com/wordpress/2012/09/css3-3d-transform-perspective-animate-transition/)
+
 [CSS 3D 旋转 rotate3d 与 translate3d](https://www.puritys.me/zh_cn/docs-blog/article-353-CSS-3D-%E6%97%8B%E8%BD%AC-rotate3d-%E4%B8%8E-translate3d.html)
+
 [AMD, CMD, CommonJS和UMD](https://segmentfault.com/a/1190000004873947)
