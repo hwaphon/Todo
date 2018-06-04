@@ -1,0 +1,90 @@
+/*
+* @Author: hwaphon
+* @Date:   2018-06-04 16:15:20
+* @Last Modified by:   hwaphon
+* @Last Modified time: 2018-06-04 18:04:43
+*/
+
+*, 
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 720px;
+	margin: 100px auto;
+	padding: 48px 0;
+}
+
+.box-container {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	transform-style: preserve-3d;
+	perspective: 600px;
+	margin-bottom: 100px;
+}
+
+.box {
+	width: 320px;
+	height: 180px;
+	line-height: 180px;
+
+	text-align: center;
+	background-color: #74dac6;
+	color: #FFF;
+}
+
+.label-container {
+	width: 280px;
+	text-align: center;
+}
+
+.label-container p {
+	margin-bottom: 24px;
+}
+
+.label-container label {
+	margin-right: 12px;
+}
+
+.label-container input {
+	position: relative;
+	display: inline-block;
+
+	width: 85%;
+	vertical-align: middle;
+}
+
+.translate-container input::before {
+	content: "-100px";
+	position: absolute;
+	left: 0;
+	top: 100%;
+}
+
+.translate-container input::after {
+	content: "100px";
+	position: absolute;
+	right: 0;
+	top: 100%;
+}
+
+.rotate-container input::before {
+	content: "-360°";
+	position: absolute;
+	left: 0;
+	top: 100%;
+}
+
+.rotate-container input::after {
+	content: "360°";
+	position: absolute;
+	right: 0;
+	top: 100%;
+}
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="./index.css">
+</head>
+<body>
+	<div class="container">
+		<div class="box-container">
+			<div class="box" id="translateBox">Translate</div>
+			<div class="label-container translate-container">
+				<p>
+					<label for="translateXInput">X: </label>
+					<input type="range" min="-100" max="100" defaultValue="0" id="translateXInput">
+				</p>
+				<p>
+					<label for="translateYInput">Y: </label>
+					<input type="range" min="-100" max="100" defaultValue="0" id="translateYInput">
+				</p>
+				<p>
+					<label for="translateZInput">Z: </label>
+					<input type="range" min="-100" max="100" defaultValue="0" id="translateZInput">
+				</p>
+			</div>
+		</div>
+
+		<div class="box-container">
+			<div class="box" id="rotateBox">Rotate</div>
+			<div class="label-container rotate-container">
+				<p>
+					<label for="rotateXInput">X: </label>
+					<input type="range" min="-360" max="360" defaultValue="0" id="rotateXInput">
+				</p>
+				<p>
+					<label for="rotateYInput">Y: </label>
+					<input type="range" min="-360" max="360" defaultValue="0" id="rotateYInput">
+				</p>
+				<p>
+					<label for="rotateZInput">Z: </label>
+					<input type="range" min="-360" max="360" defaultValue="0" id="rotateZInput">
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<script src="./sea-modules/sea.js"></script>
+	<script>
+		seajs.config({
+			base: './sea-modules'
+		});
+
+		seajs.use('./index');
+	</script>
+</body>
+</html>
