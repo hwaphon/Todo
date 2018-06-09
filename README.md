@@ -49,6 +49,8 @@
 
 [聊聊 CSS 预处理器，LESS、Sass、Stylus 及 postCSS](https://github.com/SolidZORO/blog/issues/11)
 
+[Sass 学习笔记](http://hwaphon.cn/2017/08/20/Sass-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/#more)
+
 ## PWA
 
 [PWA实战.第一本PWA书籍](http://sangka-z.com/PWA-Book-CN/)
@@ -58,3 +60,7 @@
 ## 动画
 
 [requestAnimationFrame(阮一峰)](https://javascript.ruanyifeng.com/htmlapi/requestanimationframe.html)
+
+## React
+
+[Tutorial: How to set up React, webpack 4, and Babel (2018)](https://www.valentinog.com/blog/react-webpack-babel/)
