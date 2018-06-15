@@ -61,6 +61,12 @@
 
 [requestAnimationFrame(阮一峰)](https://javascript.ruanyifeng.com/htmlapi/requestanimationframe.html)
 
+[如何理解animation-fill-mode及其使用？](https://segmentfault.com/q/1010000003867335)
+
 ## React
 
 [Tutorial: How to set up React, webpack 4, and Babel (2018)](https://www.valentinog.com/blog/react-webpack-babel/)
+
+## JS 相关
+
+[JavaScript 运行机制详解：再谈Event Loop](http://www.ruanyifeng.com/blog/2014/10/event-loop.html)
